@@ -1,2 +1,2 @@
-# Ignore installed dependencies in any folder.
+### Ignore installed dependencies in any folder.
 node_modules/
