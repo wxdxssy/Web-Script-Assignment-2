@@ -19,6 +19,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Bootstrap and Font Awesome packages.
+app.use(express.static(path.join(__dirname, 'node_modules')));
+
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
