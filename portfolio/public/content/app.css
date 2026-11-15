@@ -1,0 +1,64 @@
+/* Apply the original cream-to-sage colour scheme and font. */
+body {
+    background-color: #F3F1E9;
+    background-image: linear-gradient(#F3F1E9, #A3B5A0);
+    color: #536456;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin: 0;
+}
+
+/* Keep page content separated from the navigation and footer. */
+main.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Style the Bootstrap navbar and its mobile drawer. */
+.navbar,
+.drawer {
+    background-color: #E8EBE3;
+    color: #536456;
+}
+
+/* Apply the portfolio colour to the brand and navigation links. */
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #536456;
+}
+
+/* Emphasize the current page and links under the pointer. */
+.navbar .nav-link.active,
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #344238;
+    text-decoration: underline;
+}
+
+/* Present page sections in sage panels without changing Bootstrap's layout. */
+main section {
+    background-color: #E4E8DF;
+    border: 1px solid #D4DCCF;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 6px gray;
+}
+
+/* Use the portfolio's darker green for headings. */
+h1,
+h2 {
+    color: #344238;
+}
+
+/* Match the footer to the original portfolio palette. */
+footer {
+    background-color: #DDE3D8;
+    color: #536456;
+    padding: 20px;
+}
+
+/* Keep content and footer links consistent with the colour scheme. */
+main a,
+footer a {
+    color: #344238;
+}
