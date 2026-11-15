@@ -60,3 +60,8 @@ https://fontawesome.com/
 https://www.npmjs.com/package/@fortawesome/fontawesome-free
 
 Icon markup was selected from Font Awesome and added to the navigation.
+
+Render
+
+Site hosted on render 
+@ https://waseeds-portfolio-assignment-2.onrender.com/
