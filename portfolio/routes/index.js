@@ -8,17 +8,17 @@ router.get('/', function(req, res, next) {
 
 // get the About Me page.
 router.get('/aboutme', function(req, res, next) {
-  res.render('index', { title: 'About Me' });
+  res.render('aboutme', { title: 'About Me' });
 });
 
 // get the Projects page.
 router.get('/projects', function(req, res, next) {
-  res.render('index', { title: 'Projects' });
+  res.render('projects', { title: 'Projects' });
 });
 
 // get the Contact Me page.
 router.get('/contactme', function(req, res, next) {
-  res.render('index', { title: 'Contact Me' });
+  res.render('contactme', { title: 'Contact Me' });
 });
 
 module.exports = router;
