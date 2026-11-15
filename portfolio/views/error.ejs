@@ -1,3 +1,13 @@
-<h1><%= message %></h1>
-<h2><%= error.status %></h2>
-<pre><%= error.stack %></pre>
+<!-- include shared doc header and nav -->
+<%- include('partials/header.ejs') %>
+<%- include('partials/main_nav.ejs') %>
+
+<!-- show error info given by app.js -->
+<main class="container">
+  <h1><%= message %></h1>
+  <h2><%= error.status %></h2>
+  <pre><%= error.stack %></pre>
+</main>
+
+<!-- include the shared footer and Bootstrap drawer script-->
+<%- include('partials/footer.ejs') %>
