@@ -1,12 +1,59 @@
 <!-- Load shared doc header and nav -->
 <%- include('partials/header.ejs') %>
-<%- include('partials/main_nav.ejs') %>
+    <%- include('partials/main_nav.ejs') %>
 
-<!-- Show page's title, given by route. -->
-<main class="container">
-  <h1><%= title %></h1>
-  <p>Welcome to <%= title %></p>
-</main>
+        <!-- projects content with shared portfolio layout -->
+        <main class="container">
+            <h1>
+                <%= title %>
+            </h1>
 
-<!-- Load shared footer and nav script. -->
-<%- include('partials/footer.ejs') %>
+            <section>
+                <h2>Hangman Game</h2>
+                <p>
+                    This project was a culminating assignment for INFR1101.
+                    My group and I recreated the popular Hangman game using Python.
+                    We included single-player and multiplayer modes for people
+                    who wanted to play with friends. We incorporated concepts
+                    learned in the course, such as file handling, loops, and functions.
+                </p>
+            </section>
+
+            <section>
+                <h2>Banking System</h2>
+                <p>
+                    This project was a culminating assignment for INFR2141.
+                    My group and I created a banking system using Python.
+                    Individuals could deposit, withdraw, transfer, check balances,
+                    and apply for loans. We used inheritance, polymorphism,
+                    encapsulation, and abstraction, which we learned throughout
+                    the course.
+                </p>
+            </section>
+
+            <section>
+                <h2>INFR2411 Case Study</h2>
+                <p>
+                    My group and I were tasked with connecting a company's three
+                    corporate offices to the same network in a mock scenario.
+                    We created a simulated environment in Packet Tracer and
+                    configured protocols and features learned throughout the
+                    semester, including BGP, VLANs, EtherChannels, trunking, and VTP.
+                    We also developed a solution for accessing the network remotely
+                    while maintaining network integrity.
+                </p>
+            </section>
+
+            <section>
+                <h2>Napkin Design</h2>
+                <p>
+                    This BUSI1600 assignment involved creating a rough estimate
+                    of the revenue and expenses of a business we would start.
+                    Once I began, I realized that even simplifying a business
+                    to a napkin design involved many complexities.
+                </p>
+            </section>
+        </main>
+
+        <!-- Load shared footer and nav script. -->
+        <%- include('partials/footer.ejs') %>

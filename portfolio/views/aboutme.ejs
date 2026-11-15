@@ -1,12 +1,28 @@
 <!-- Load shared doc header and nav -->
 <%- include('partials/header.ejs') %>
-<%- include('partials/main_nav.ejs') %>
+    <%- include('partials/main_nav.ejs') %>
 
-<!-- Show page's title, given by route. -->
-<main class="container">
-  <h1><%= title %></h1>
-  <p>Welcome to <%= title %></p>
-</main>
+        <!-- About Me content within the shared page layout. -->
+        <main class="container">
+            <h1>
+                <%= title %>
+            </h1>
 
-<!-- Load shared footer and nav script. -->
-<%- include('partials/footer.ejs') %>
+            <section>
+                <h2>Who Am I?</h2>
+                <p>
+                    My name is Waseed and I am a 2nd year Networking and IT Security
+                    student at Ontario Tech University. I am also a relations
+                    associate for BitSoc here at Ontario Tech. My goal is to
+                    graduate from this program and use the skills I have acquired
+                    to pursue a career in cybersecurity.
+                </p>
+
+                <!-- avatar from public assets folder. -->
+                <img src="/assets/images/bitmojicropped.png" alt="Bitmoji of Waseed Obaid" width="300"
+                    class="img-fluid">
+            </section>
+        </main>
+
+        <!-- Load shared footer and nav script. -->
+        <%- include('partials/footer.ejs') %>

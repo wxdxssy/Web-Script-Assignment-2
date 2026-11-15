@@ -4,14 +4,38 @@
   <!-- Include portfolio nav bar. -->
   <%- include('partials/main_nav.ejs') %>
 
-    <!-- Show page and content. -->
+    <!-- Home content, displayed within the shared layout. -->
     <main class="container">
       <h1>
         <%= title %>
       </h1>
-      <p>Welcome to <%= title %>
-      </p>
+
+      <section>
+        <h2>Welcome!</h2>
+        <p>
+          Hello, welcome to my portfolio! My name is Waseed and this website
+          is where I share information about myself, my skills, and past
+          projects I have worked on. I am a university student interested
+          in cybersecurity and IT. I have worked on different projects
+          that have helped me improve my technical skills and obtain
+          new ones along the way.
+        </p>
+
+        <p>
+          I invite you to explore my website and learn more about me,
+          view some of the work I have done, and get in touch with me.
+          Thanks for visiting!
+        </p>
+      </section>
+
+      <section>
+        <h2>My Other Interests</h2>
+        <p>
+          My other interests include weightlifting, spending time with
+          my family, watching cinema, going on hikes, gaming, and travelling.
+        </p>
+      </section>
     </main>
 
-<!-- Include footer and closing doc tags -->
-<%- include('partials/footer.ejs') %>
+    <!-- Include footer and closing doc tags -->
+    <%- include('partials/footer.ejs') %>
