@@ -1,12 +1,34 @@
 <!-- Load shared doc header and nav -->
 <%- include('partials/header.ejs') %>
-<%- include('partials/main_nav.ejs') %>
+    <%- include('partials/main_nav.ejs') %>
 
-<!-- Show page's title, given by route. -->
-<main class="container">
-  <h1><%= title %></h1>
-  <p>Welcome to <%= title %></p>
-</main>
+        <!-- Contact me content in shared layout -->
+        <main class="container">
+            <h1>
+                <%= title %>
+            </h1>
 
-<!-- Load shared footer and nav script. -->
-<%- include('partials/footer.ejs') %>
+            <section>
+                <h2>Get in Touch with Me</h2>
+                <p>
+                    Feel free to contact me about my projects, interests,
+                    or opportunities in cybersecurity and IT.
+                </p>
+
+                <!-- allow visitor's to email with their app -->
+                <p>
+                    Email:
+                    <a href="mailto:waseedullah.obaid@ontariotechu.net">
+                        waseedullah.obaid@ontariotechu.net
+                    </a>
+                </p>
+
+                <p>
+                    GitHub:
+                    <a href="https://github.com/wxdxssy">wxdxssy</a>
+                </p>
+            </section>
+        </main>
+
+        <!-- Load shared footer and nav script. -->
+        <%- include('partials/footer.ejs') %>
